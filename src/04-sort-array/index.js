@@ -8,7 +8,7 @@
  */
 
 // Average and worst case time complexity (Big-O) of my function is:
-// Explain:
+// Explain: The calculation time increases at the same pace as the input - O(n)
 
 'use strict';
 
@@ -18,7 +18,7 @@ module.exports = function sortArray(arr) {
     }
 
     arr.every(function (e) {
-        if (typeof e != 'number' || !isFinite(e)) {
+        if (typeof e != 'number') {
             throw new TypeError('This function requires an array of integers');
         }
     });
