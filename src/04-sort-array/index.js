@@ -17,11 +17,8 @@ module.exports = function sortArray(arr) {
         new TypeError('This function requires an array of integers');
     }
 
-    arr.every(function (e) {
-        if (typeof e != 'number') {
-            throw new TypeError('This function requires an array of integers');
-        }
-    });
+    if(!arr.every(Number.isInteger))
+        throw new TypeError('This function requires an array of integers');
 
     return arr.sort((a, b) => a - b);
 };
