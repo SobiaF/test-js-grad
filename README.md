@@ -1,6 +1,6 @@
-# Graduate JS exercise
+# JS exercise
 
-Hello hello, thanks for taking your time to complete this exercise.
+Instructions below - this was for a graduate scheme Js Test - at that time I had to publish my solution to a public GitHub repo and send a link to my recruitment agent.
 
 ## Setup
 
@@ -19,7 +19,3 @@ Before you do anything else, run `npm test` in your terminal. This will will run
 This exercise consists of four tasks defined in the `./src` directory. Each task contains a test file (`index.test.js`) with tests the expected functionality (do not change it). These tests also describe what the function should do, so read them carefully. It is up to you to implement a function in `index.js` within the same directory, so that the tests pass.
 
 Note that `index.js` may contain additional information which may be useful to you or require you to provide time complexity for the function you implemented.
-
-## Submission
-
-Publish you solution to a public GitHub repo and send a link to your recruitment agent.
